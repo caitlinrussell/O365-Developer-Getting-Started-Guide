@@ -1,0 +1,233 @@
+<html>
+  <head>
+    <title>Microsoft Graph</title>
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.2.0/fabric.min.css">
+	<link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.2.0/fabric.components.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+<div id="container">
+
+<!-- Header -->
+	<header class="od-Header">
+		<div class="header-content ms-font-l">
+			<a href="http://dev.office.com/">
+				<img src="img/Ofc_rgb_Wht.png" alt="Microsoft Office" />
+				| Dev Center
+			</a>
+		</div>
+	</header>
+
+<!-- Hero -->
+	<div id="hero">
+	  	<div class="ms-Grid-row" id="hero-content">
+	  		<div class="ms-Grid-col">
+			    <h1 class="ms-font-su ms-fontColor-white">Welcome to Office Dev</h1>
+
+			    <form>
+			    	<h2 class="ms-font-xl ms-fontColor-white">I want to create an
+			    		<select class="app-type" name="app-type">
+			    			<option value="graph">app</option>
+			    			<option value="addin">add-in</option>
+			    		</select>
+			    		<span class="account-wrapper">
+				    	 	for 
+				    		<select class="user-type" name="user-type">
+				    			<option value="work">work or school</option>
+				    			<option value="personal">personal accounts</option>
+				    		</select>
+				    	</span>
+				    	<span class="office-wrapper">
+				    		for 
+				    		<select class="office-app" name="office-app">
+				    			<option value="Access">Access</option>
+				    			<option value="Excel">Excel</option>
+				    			<option value="OneNote">OneNote</option>
+				    			<option value="Outlook">Outlook</option>
+				    			<option value="Powerpoint">PowerPoint</option>
+				    			<option value="Project">Project</option>
+				    			<option value="Word">Word</option>
+				    		</select>
+				    	</span>
+			    		<span class="language-wrapper">
+				    		using 
+				    		<select class="language-type" name="language-type">
+				    			<option value="Android">Android</option>
+				    			<option value="iOS">iOS</option>
+				    			<option value="Javascript">Javascript</option>
+				    			<option value="NET">.NET</option>
+				    			<option value="PHP">PHP</option>
+				    			<option value="Python">Python</option>
+				    			<option value="Ruby">Ruby</option>
+				    		</select>
+				    	</span>
+			    	</h2>
+		    	</form>
+		    </div>
+		</div>
+	</div>
+
+<!-- Add-in Content -->
+	  <div class="ms-Grid platform-content" id="addin-content">
+		<div class="ms-Grid-row">
+			<div class="ms-Grid-col ms-u-sm12 ms-u-md-10 ms-u-lg-8">
+		    	<div class="section-header">
+		    		<h2 class="ms-font-xl ms-fontWeight-semibold">Try it out</h2>
+		    	</div>
+				<div class="ms-Grid-row">
+				    <div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6 action-item">
+				    	<div class="subheader">Sandbox apps</div>
+
+						    <div class="subsection demo Excel Word Powerpoint Project">
+						    	<a href="https://store.office.com/en-us/app.aspx?assetid=WA104379613&sourcecorrid=2b2c9c7c-e1fa-4402-9ba7-76c5033b3243&searchapppos=2&ui=en-US&rs=en-US&ad=US&appredirect=false">Taskpane Add-In Sandbox</a>
+						    </div>
+						    <div class="subsection demo Excel Powerpoint">
+						    	<a href="https://store.office.com/en-us/app.aspx?assetid=WA104077907&sourcecorrid=2b2c9c7c-e1fa-4402-9ba7-76c5033b3243&searchapppos=1&ui=en-US&rs=en-US&ad=US&appredirect=false">Content Add-In Sandbox</a>
+						    </div>
+						    <div class="subsection demo Outlook">
+						    	<a href="https://store.office.com/en-us/app.aspx?assetid=WA104379630&sourcecorrid=2b2c9c7c-e1fa-4402-9ba7-76c5033b3243&searchapppos=0&ui=en-US&rs=en-US&ad=US&appredirect=false">Outlook Add-In Sandbox</a>
+						    </div>
+						    <div class="subsection"><a href="https://github.com/OfficeDev/Add-in-TaskPane-Sample">Office Add-in Task Pane</a></div>
+					</div>
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6 action-item">
+				    	<div class="subheader">Samples</div>
+
+				    		<div class="subsection sample Access"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=access">Access</a></div>
+				    		<div class="subsection sample Excel"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=excel">Excel</a></div>
+				    		<div class="subsection sample OneNote"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=onenote">OneNote</a></div>
+				    		<div class="subsection sample Outlook"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=outlook">Outlook</a></div>
+				    		<div class="subsection sample Powerpoint"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=powerpoint">PowerPoint</a></div>
+				    		<div class="subsection sample Project"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=project">Project</a></div>
+				    		<div class="subsection sample Word"><a href="https://github.com/officedev?utf8=%E2%9C%93&query=word">Word</a></div>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ms-Grid-row">
+			<div class="ms-Grid-col ms-u-sm12 ms-u-md-10 ms-u-lg-8">
+				<div class="section-header">
+		    		<h2 class="ms-font-xl ms-fontWeight-semibold">Start developing</h2>
+		    	</div>
+				<div class="ms-Grid-row">
+				    <div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">Download tools</div>
+
+						<div class="subsection"><a href="http://dev.office.com/getting-started/office365apis#setup">Startup template generator</a></div>
+						<div class="subsection"><a href="http://dev.office.com/fabric">Office UI Fabric</a></div>
+					</div>
+
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">
+							<a href="http://dev.office.com/docs/add-ins/overview/add-in-manifests">Create a manifest file</a>
+						</div>
+					</div>
+
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">Develop</div>
+
+							<div class="subsection"><a href="https://dev.office.com/docs/add-ins/overview/office-add-ins">Overview</a></div>
+							<div class="subsection docs"><a href="http://dev.office.com/docs/add-ins/access/access-web-app-add-ins">Documentation</a></div>
+							<div class="subsection"><a href="https://dev.office.com/reference/add-ins/javascript-api-for-office">API Reference</a></div>
+							<div class="subsection"><a href="http://dev.office.com/docs/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins">Test</a></div>
+					</div>
+
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">
+							<a href="http://dev.office.com/docs/add-ins/publish/publish">Publish</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Graph Content -->
+	<div class="ms-Grid platform-content" id="graph-content">
+		<div class="ms-Grid-row">
+			<div class="ms-Grid-col ms-u-sm12 ms-u-md-10 ms-u-lg-8">
+		    	<div class="section-header">
+		    		<h2 class="ms-font-xl ms-fontWeight-semibold">Try it out</h2>
+		    	</div>
+				<div class="ms-Grid-row">
+				    <div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6 action-item">
+				    	<div class="subheader"><a href="https://graph.microsoft.io/en-us/graph-explorer">Graph Explorer</a></div>
+				    </div>
+				    <div class="ms-Grid-col ms-u-sm6 ms-u-md6 ms-u-lg6 action-item">
+				    	<div class="subheader">Samples</div>
+
+			    		<div class="subsection sample Android"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=android">Android</a></div>
+			    		<div class="subsection sample Javascript"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=angular">Angular.js</a></div>
+			    		<div class="subsection sample NET"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=aspnet">ASP.NET</a></div>
+			    		<div class="subsection sample Javascript"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=node">Node.js</a></div>
+			    		<div class="subsection sample iOS"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=objectivec">Objective-C</a></div>
+			    		<div class="subsection sample PHP"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=php">PHP</a></div>
+			    		<div class="subsection sample Python"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=python">Python</a></div>
+			    		<div class="subsection sample Ruby"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=ruby">Ruby</a></div>
+			    		<div class="subsection sample iOS"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=swift">Swift</a></div>
+			    		<div class="subsection sample NET"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=UWP">UWP</a></div>
+			    		<div class="subsection sample NET"><a href="https://github.com/microsoftgraph?utf8=%E2%9C%93&query=Xamarin">Xamarin</a></div>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ms-Grid-row">
+			<div class="ms-Grid-col ms-u-sm12 ms-u-md-10 ms-u-lg-8">
+				<div class="section-header">
+		    		<h2 class="ms-font-xl ms-fontWeight-semibold">Start developing</h2>
+		    	</div>
+				<div class="ms-Grid-row">
+					<div class="registration ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">
+							<a href="http://dev.office.com/app-registration">Register your <span>AAD</span> app</a>
+						</div>
+					</div>
+
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">Download tools</div>
+
+							<div class="subsection sdk"><a href="https://github.com/microsoftgraph/msgraph-sdk-android">SDK</a></div>
+							<div class="subsection"><a href="http://dev.office.com/getting-started/office365apis#setup">Startup template generator</a></div>
+							<div class="subsection"><a href="http://dev.office.com/fabric">Office UI Fabric</a></div>
+					</div>
+					<div class="auth ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">
+							<a href="https://graph.microsoft.io/en-us/docs/authorization/app_authorization">Authenticate against Graph</a>
+						</div>
+					</div>
+
+					<div class="ms-Grid-col ms-u-sm6 ms-u-md3 ms-u-lg3 action-item">
+						<div class="subheader">Connect to Graph endpoints</div>
+
+							<div class="subsection"><a href="https://graph.microsoft.io/en-us/docs">Documentation</a></div>
+							<div class="subsection"><a href="https://graph.microsoft.io/en-us/changelog">Changelog</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Footer -->
+	<div class="footer">
+		<div class="ms-Grid-row footer-content">
+			<div class="ms-Grid-col md-u-sm6 ms-u-md4 ms-u-lg4">
+				<h2 class="ms-font-xl">Community Resources</h2>
+				<p><a href="https://www.yammer.com/itpronetwork">Office 365 Technical Network</a></p>
+				<p><a href="http://social.msdn.microsoft.com/Forums/office/en-US/home?category=apps,officedev,sharepoint,exchangeserver,lync,msproject">MSDN Forums</a></p>
+				<p><a href="http://officespdev.uservoice.com/">UserVoice</a></p>
+				<p><a href="http://stackoverflow.com/questions/tagged/ms-office">Stack Overflow</a></p>
+			</div>
+			<div class="ms-Grid-col md-u-sm6 ms-u-md4 ms-u-lg4">
+				<h2 class="ms-font-xl">Follow Us</h2>
+				<p><a href="https://twitter.com/OfficeDev">Twitter</a></p>
+				<p><a href="https://www.facebook.com/OfficeDev">Facebook</a></p>
+				<p><a href="https://github.com/microsoftgraph">GitHub</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.3.min.js"></script>
+	<script src="js/scripts.js"></script>
+  </body>
+</html>
